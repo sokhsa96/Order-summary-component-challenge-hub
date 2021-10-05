@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+    overflow: hidden;  
+}
+
+body{
+    background-color: hsl(225, 100%, 94%);
+}
+
+.container{
+    width: 361px;
+    height: 550px;
+    margin: 30px auto;
+    display: flex;
+    background-color: white;
+    box-shadow: -2px 5px 11px 0px #0000009e;
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.hero{
+    height: 180px;
+}
+
+.title{
+    margin: 2px auto;
+    padding-top:25px;
+    padding-bottom: 0px;
+}
+
+.text{
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px 20px;
+    width: 307px;
+    height: 95px;
+        color: hsl(224, 23%, 55%);
+}
+
+.pay-container{
+    background-color: hsl(225, 100%, 98%);
+    padding: 30px 10px;
+    height: 20px;
+    width: fit-content;
+    margin: 10px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 15px;
+}
+
+.price{
+    top:50%;
+    left: 50%;
+    width: 165px;
+    height: fit-content;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+}
+
+.annual{
+    font-weight: bold;
+    color: black;
+}
+
+
+.change{
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.change:hover{
+        color: hsl(245, 67%, 63%);
+
+}
+
+.submit{
+    height: 38px;
+    margin-top: 16px;
+    margin-bottom: 21px;
+    width: 80%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    box-shadow: -3PX 6PX 20px 0px #00000087;
+    cursor: pointer;
+}
+
+.submit:hover{
+        background-color: hsl(245, 85%, 69%);
+        color: rgb(38, 57, 58);
+
+}
+
+.cancel{
+        color: hsl(224, 23%, 55%);
+        cursor: pointer;
+}
+
+.cancel:hover{
+        color: hsl(224, 23%, 43%);
+}
